@@ -113,7 +113,7 @@ Staffrouter.put("/updatestaffparcelstatus/:id", async (req, res) => {
                     service: 'gmail',
                     auth: {
                         user: 'knzcourier@gmail.com',
-                        pass: 'Knz@1628'
+                        pass: '1628@knZ'
                     }
                 });             
             
@@ -197,7 +197,7 @@ Staffrouter.post('/sendotp',async(req,res)=>{
                     service: 'gmail',
                     auth: {
                         user: 'knzcourier@gmail.com',
-                        pass: 'Knz@1628'
+                        pass: '1628@knZ'
                     }
                 });
 
